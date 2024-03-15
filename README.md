@@ -10,6 +10,9 @@
     My ROG PC Configuration
 </p>
 
+> [!WARNING]
+> Once ROG, forever ROG!!! 
+
 # Device Info
 - Model: ROG Strix G16 (2024)
 - RAM: 32GB
