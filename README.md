@@ -26,7 +26,23 @@ ASUS ROG Devices has `Armoury Crate` pre-installed, but it's too heavy. It alway
 So, let's rip out this s**t.
 
 ### Uninstall Armoury Crate
+Download it from the official link: [https://dlsvr04.asus.com.cn/pub/ASUS/mb/14Utilities/Armoury_Crate_Uninstall_Tool.zip](https://dlsvr04.asus.com.cn/pub/ASUS/mb/14Utilities/Armoury_Crate_Uninstall_Tool.zip)
+
+Or download it from Release: [https://github.com/Vincent-the-gamer/rog-config/releases/tag/uninstall](https://github.com/Vincent-the-gamer/rog-config/releases/tag/uninstall)
 
 ### Install G-Helper
 
-To be continued...
+Download from the git repo: [seerge/g-helper](https://github.com/seerge/g-helper)
+
+Unzip it, and place the only `GHelper.exe` to your favorite folder, then run it.
+
+If you don't have dotnet(.NET) runtime, it will automatically download the installer for you, 
+install it and then install G-Helper.
+
+Finally, use `G-Helper` to manage your PC.
+
+Have fun!
+
+
+# More
+If any update, I will continue this document.
