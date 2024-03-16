@@ -93,8 +93,8 @@ Finally, config your mingw64 in cargo config file.
 ```toml
 # /path/to/.cargo/config
 [target.x86_64-pc-windows-gnu]
-linker = "C:\\msys64\\mingw64\\bin\\gcc.exe"
-ar = "C:\\msys64\\mingw64\\bin\\ar.exe"
+linker = "path\\to\\msys2\\mingw64\\bin\\gcc.exe"
+ar = "path\\to\\msys2\\mingw64\\bin\\ar.exe"
 ```
 
 # More
