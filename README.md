@@ -46,6 +46,56 @@ Finally, use `G-Helper` to manage your PC.
 
 Have fun!
 
+# Development
+I'm also gonna use this powerful beast for coding.
+
+## Rust
+
+Install Rust environment with `msys2` and `x86_64-pc-windows-gnu` toolchain, because I extremely hate MSVC.
+
+### Install msys2
+
+Download it from [https://www.msys2.org/](https://www.msys2.org/)
+
+Install and open it, you'll get a shell window.
+
+Then:
+
+- Update database:
+```shell
+pacman -Sy && pacman -Syu
+```
+
+- Install `mingw-w64-x86_64-toolchain`
+```shell
+pacman -S mingw-w64-x86_64-toolchain
+```
+
+- Add `path\to\your\msys2\mingw64\bin` to PATH
+
+- Run `gcc --version` to check.
+
+### Install Rust
+On Windows, you need to download the installer.
+
+[https://www.rust-lang.org/learn/get-started](https://www.rust-lang.org/learn/get-started)
+
+Run it, then:
+
+- Choose `Manually install prerequisites` at beginning.
+    ![install1](./.github/rust-install-1.png)
+- Choose `Custom installation` when you asked for proceed with installation, 
+and input `x86_64-pc-windows-gnu`. 
+    ![install2](./.github/rust-install-2.png)
+- Proceed with installation now.
+
+Finally, config your mingw64 in cargo config file.
+```toml
+# /path/to/.cargo/config
+[target.x86_64-pc-windows-gnu]
+linker = "C:\\msys64\\mingw64\\bin\\gcc.exe"
+ar = "C:\\msys64\\mingw64\\bin\\ar.exe"
+```
 
 # More
 If any update, I will continue this document.
